@@ -1,3 +1,4 @@
 add_subdirectory ("SFML")
+add_subdirectory ("Chipmunk2D")
+
 include_directories("./SFML/include")
-#target_include_directories(sfmlPhysicstest PRIVATE ${YOUR_DIRECTORY})
