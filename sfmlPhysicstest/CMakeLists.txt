@@ -5,5 +5,5 @@ cmake_minimum_required (VERSION 3.8)
 
 # Fügen Sie der ausführbaren Datei dieses Projekts eine Quelle hinzu.
 add_executable (sfmlPhysicstest "sfmlPhysicstest.cpp" "sfmlPhysicstest.h")
+target_link_libraries(sfmlPhysicstest sfml-graphics sfml-window)
 
-# TODO: Fügen Sie bei Bedarf Tests hinzu, und installieren Sie Ziele.

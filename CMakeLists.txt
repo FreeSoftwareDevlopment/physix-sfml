@@ -6,4 +6,5 @@ cmake_minimum_required (VERSION 3.8)
 project ("sfmlPhysicstest")
 
 # Schließen Sie Unterprojekte ein.
+add_subdirectory ("deps")
 add_subdirectory ("sfmlPhysicstest")
