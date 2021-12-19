@@ -3,6 +3,9 @@
 
 #pragma once
 
-#include <iostream>
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
+#include <vector>
+#include "timeelapsed.h"
+
+void renderingThread(sf::RenderWindow* window, std::vector<sf::Drawable*>& renderthings);
